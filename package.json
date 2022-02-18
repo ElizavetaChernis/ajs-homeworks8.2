@@ -1,5 +1,5 @@
 {
-  "name": "ajs-7.1",
+  "name": "ajs-8.1",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -39,11 +39,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ElizavetaChernis/ajs-homeworks7.1.git"
+    "url": "git+https://github.com/ElizavetaChernis/ajs-homeworks8.1.git"
   },
   "bugs": {
-    "url": "https://github.com/ElizavetaChernis/ajs-homeworks7.1/issues"
+    "url": "https://github.com/ElizavetaChernis/ajs-homeworks8.1/issues"
   },
-  "homepage": "https://github.com/ElizavetaChernis/ajs-homeworks7.1#readme",
+  "homepage": "https://github.com/ElizavetaChernis/ajs-homeworks8.1#readme",
   "description": ""
 }
