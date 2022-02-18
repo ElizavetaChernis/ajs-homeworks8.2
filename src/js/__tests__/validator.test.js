@@ -27,6 +27,13 @@ test('should return an error for entering more than 3 digits in a row', () => {
   expect(() => validator.validateUsername()).toThrowError(new Error(textErr));
 });
 
+test('should return an error if сyrillic is entered', () => {
+  const validator = new Validator('Джон');
+
+  const textErr = 'Имя может содержать только латинские буквы, цифры, подчеркивания и тире.';
+  expect(() => validator.validateUsername()).toThrowError(new Error(textErr));
+});
+
 test('should return the user name', () => {
   const validator = new Validator('John');
 

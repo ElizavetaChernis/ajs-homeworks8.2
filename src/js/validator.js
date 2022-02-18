@@ -13,6 +13,9 @@ export default class validator {
     if (/\d{4}/.test(this.userName)) {
       throw new Error('Имя не должно содержать подряд более трёх цифр.');
     }
+    if ( !/[a-z]/.test(this.userName)) {
+      throw new Error('Имя может содержать только латинские буквы, цифры, подчеркивания и тире.');
+    }
 
     return this.userName;
   }
